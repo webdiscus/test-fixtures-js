@@ -1,6 +1,6 @@
 {
   "name": "@test-fixtures/js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JS test fixture module",
   "keywords": [
     "test",
@@ -26,7 +26,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "src/fixture-js.js",
+  "main": "src/fixture-script.js",
   "scripts": {
     "publish:public": "npm publish --access public"
   },
