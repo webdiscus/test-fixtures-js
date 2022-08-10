@@ -1,0 +1,43 @@
+{
+  "name": "@test-fixtures/js",
+  "version": "0.0.1",
+  "description": "JS test fixture module",
+  "keywords": [
+    "test",
+    "fixture",
+    "js",
+    "JavaScript",
+    "script"
+  ],
+  "license": "ISC",
+  "author": "webdiscus (https://github.com/webdiscus)",
+  "maintainers": [
+    "webdiscus (https://github.com/webdiscus)"
+  ],
+  "homepage": "https://github.com/webdiscus/test-fixtures-js",
+  "bugs": {
+    "url": "https://github.com/webdiscus/test-fixtures-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdiscus/test-fixtures-js.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "src/fixture-js.js",
+  "scripts": {
+    "publish:public": "npm publish --access public"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@test-fixtures/lorem": "0.0.2"
+  },
+  "devDependencies": {
+  }
+}
