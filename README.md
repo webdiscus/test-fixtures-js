@@ -18,6 +18,6 @@ npm i -D @test-fixtures/js
 const { lorem, libA, libB } = require('@test-fixtures/js');
 
 console.log('Lorem: ', lorem.getTitle()); // Lorem Ipsum
-console.log('Lib 1: ', libA.getName());   // 1024 bytes of text
-console.log('Lib 2: ', libB.getName());   // 1024
+console.log('Lib 1: ', libA.getName());   // Lib A
+console.log('Lib 2: ', libB.getName());   // Lib B
 ```
